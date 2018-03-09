@@ -13,17 +13,22 @@ Due to the large size the output can be stored under "BigInteger" class
 
 class QuizGenerator  {
 
-public int generateQuizzes (  ) {
+        public int generateQuizzes (  ) {
+    
+     
     
     
     
-    
-    
-}
+        }
 
 
 	public static void main (String[] args) throws java.lang.Exception
 	{
-
+          String fileName = null;
+		
+          if (args.length > 0) fileName = args[0];		
+          		
+	          =     parseInputs(fileName);
+		
 	}
 }
